@@ -1,5 +1,7 @@
 # Handy Attendance
 
+Android application for keeping track of students attendance and report generator
+
 FUNCTIONALITY 
 - Mark class attendance on personal mobile and
 stores.
