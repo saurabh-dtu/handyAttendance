@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HandyAttendance</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="but_addbatch">Add new Batch</string>
+    <string name="but_p1_delbatch">Delete</string>
+    <string name="edt_newbatchname">Enter batch name</string>
+    <string name="addstudents">Add students</string>
+    <string name="addstudentsmanually">manually</string>
+    <string name="Ok_paddstds">Add</string>
+    <string name="p_addbatch_edt_entername">Enter name</string>
+    <string name="p_addbatch_but_savebatch">Save batch</string>
+    <string name="contextmenu1_takeatt">Take Attendance</string>
+    <string name="contextmenu2_edit">Edit</string>
+    <string name="contextmenu3_view">View</string>
+    <string name="contextmenu4_delete">Delete Batch</string>
+    <string name="edt_studentname">Enter student name</string>
+    <string name="edt_rollno">Enter roll number(&lt;200)</string>
+    <string name="addstudent">ADD STUDENT</string>
+    <string name="markATTENDANCE">VIEW OR MARK ATTENDANCE</string>
+    <string name="viewATTENDANCE">VIEW % REPORT</string>
+    <string name="deleteSTUDENT">DELETE STUDENT</string>
+    <string name="deleteBATCH">DELETE BATCH</string>
+    <string name="addBATCH">ADD BATCH</string>
+    <string name="view">VIEW</string>
+    
+    
+    <color name="black">#150015</color>
+    <color name="white">#fff6f6</color>
+    <string name="tv_batch">BATCH</string>
+    <string name="tv_rollno">ROLL NO</string>
+    <string name="roll">ROll No</string>
+    <string name="name">NAME</string>
+    <string name="Percent">PERCENT</string>
+    <string name="count">PRESENT</string>
+    <string name="Totalclasses">TOTAL CLASSES</string>
+    <string name="pc">#classes attended</string>
+    <string name="held">HELD</string>
+    <string name="tc">Classes Conducted This Month--&gt;</string>
+    <string name="tvone">Select Batch And Month</string>
+    <string name="tvtwo">SelectMonth</string>
+    <string name="viewheading">ATTENDANCE REPORT</string>
+    <string name="clearb">CLEAR BATCH</string>
+    <string name="manageb">BATCH MANAGER</string>
+    <string name="batches">BATCHES</string>
+    <string name="c">TOTAL CLASSES CONDUCTED FOR THIS BATCH-&gt;</string>
+    <string name="mark">mark</string>
+    <string name="home">home</string>
+    <string name="back">back</string>
+    <string name="handyattendance">HANDY ATTENDANCE</string>
+    
+</resources>

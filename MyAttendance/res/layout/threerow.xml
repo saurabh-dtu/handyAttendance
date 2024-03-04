@@ -1,0 +1,50 @@
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/col_txt31"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+  android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="@string/roll"
+        android:layout_weight="1"/>
+ <TextView
+        android:id="@+id/col_txt32"
+        android:layout_width="70dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_weight="5"
+        android:textColor="@color/black" />
+    
+   
+  <TextView
+        android:id="@+id/col_txt33"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pc"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        />
+   
+ 
+ <TextView
+        android:id="@+id/col_txt34"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Percent"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+   
+   
+</LinearLayout>

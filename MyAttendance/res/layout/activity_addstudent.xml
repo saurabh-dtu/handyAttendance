@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <include layout="@layout/toplayout"/>
+    <EditText
+        
+        android:id="@+id/edt_enterrollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+       android:inputType="number" 
+        android:hint="@string/edt_rollno" />
+    
+    <EditText
+        android:id="@+id/edt_enterstdname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edt_studentname"
+        
+           android:inputType="textPersonName" >
+    </EditText>
+   <Spinner
+        android:id="@+id/spin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edt_studentname" >
+  </Spinner>
+   <!-- <ListView
+        android:id="@+id/lv_studentlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView> --> 
+    
+
+       <requestFocus />
+
+     
+</LinearLayout>

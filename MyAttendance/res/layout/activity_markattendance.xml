@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:background="#ffffff"
+     >
+    
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#005353">
+ 
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btn_add_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mark"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/view"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
+    
+<LinearLayout android:orientation="horizontal"
+    android:layout_height="50dp"
+    android:layout_width="fill_parent">
+     
+  <TextView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/tv1"
+    android:layout_weight="1"
+    android:textColor="@color/black"
+
+    android:text="@string/tvone"/> 
+ 
+  <Spinner
+        android:id="@+id/spinmarkatt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"    
+        android:layout_weight="1">
+  
+  </Spinner>
+        <Spinner
+        android:id="@+id/spinmonth"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+  </Spinner>
+
+ 
+
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+        
+<TextView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/tvtotalmonthclasses"
+    android:textColor="@color/black"
+ android:textSize="15sp"
+    android:text="@string/tc"/>
+
+<TextView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/tvtot"
+    android:textSize="15sp"
+    android:textColor="@color/black"
+    android:text="@string/view"/>   
+
+    
+</LinearLayout>
+<include layout="@layout/multirow"
+    android:paddingBottom="10dp"/>
+   <ListView
+       android:id="@+id/markattendance"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:textColor="#190019" >
+   </ListView>
+
+   
+
+</LinearLayout>

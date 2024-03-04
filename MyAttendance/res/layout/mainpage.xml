@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+  android:orientation="vertical"  
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Attendance" >
+ <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#005353">
+ 
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/handyattendance"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
+     
+ 
+     <RelativeLayout 
+    android:layout_weight="1"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/bt5"
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:background="@android:color/transparent"
+       android:drawableTop="@drawable/addbatch"
+        android:text="@string/addBATCH" />
+    
+      
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/group_add"
+        android:text="@string/addstudent" />
+
+    
+    
+</RelativeLayout>
+        <Button
+    android:layout_weight="1"
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/attendance_list"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/markATTENDANCE" />
+        
+        
+        <RelativeLayout 
+        
+            
+    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+     
+     <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+       android:drawableTop="@drawable/remove"
+        android:text="@string/deleteSTUDENT"
+        android:id="@+id/bt4"
+        
+        />
+
+       <Button
+           android:id="@+id/bt6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:background="@android:color/transparent"
+           android:drawableTop="@drawable/file_delete"
+           android:text="@string/batches" />
+
+  </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/document_graph"
+            android:text="@string/viewATTENDANCE" />
+    
+</LinearLayout>
+</ScrollView>

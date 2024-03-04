@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+     
+    <item android:id="@+id/take_att"
+        android:title="@string/contextmenu1_takeatt"
+        />
+    <item android:id="@+id/edit_att"
+        android:title="@string/contextmenu2_edit"
+        />
+    <item android:id="@+id/viewtotal"
+        android:title="@string/contextmenu3_view"/>
+    
+    <item android:id="@+id/deletebatch"
+        android:title="@string/contextmenu4_delete"/>
+</menu>
+    
